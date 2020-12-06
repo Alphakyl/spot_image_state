@@ -9,6 +9,8 @@ project(spot_image_state)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+	rospy
+	std_msgs
   sensor_msgs
 )
 
