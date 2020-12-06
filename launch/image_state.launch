@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="spot_image_state" name="state_image" type="state_image.py" output="screen"/>
+</launch>
